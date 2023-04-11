@@ -16,7 +16,7 @@ contract Storage {
      * @param num value to store
      */
     function store(uint256 num) public {
-        number = num;
+        number = num+4;
     }
 
     /**
